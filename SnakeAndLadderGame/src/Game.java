@@ -1,6 +1,7 @@
 package src;
 
-import java.util.*;
+import java.util.Queue;
+import java.util.ArrayDeque;
 
 public class Game {
 
@@ -47,6 +48,7 @@ public class Game {
 
         if(newPosition > totalCells) {
             System.out.println("Invalid move");
+            newPosition = oldPosition;
         } 
         else if (board.hasSpecialEntity(newPosition)) {
 
@@ -60,21 +62,18 @@ public class Game {
             }
             
             newPosition = specialEntity.getEndPosition();
-            player.setPosition(newPosition);
-        } 
-        else {
-            player.setPosition(newPosition);
         }
 
+        player.setPosition(newPosition);
     }
 
     public void addPlayer(Player player) {
 
-        queue.offer(player);
+        players.offer(player);
     }
 
     public void setPlayers(Queue<Player> players) {
 
-        this.queue = players;
+        this.players = players;
     }
 }
