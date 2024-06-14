@@ -1,0 +1,10 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ØÉü²ùÿÿÿÿ
+M
+java:S1128"7Remove this unused import 'hackathon.enums.Difficulty'.(û÷Ùœ
+o
+java:S1128"YRemove this unused import 'hackathon.strategies.filterStrategies.ProblemsFilterStrategy'.(»¿ü½
+F
+java:S1128	"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+S
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ

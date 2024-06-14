@@ -1,0 +1,24 @@
+
+W
+java:S1854%"<Remove this useless assignment to local variable "problems".(È‚°øÿÿÿÿ
+O
+java:S1854""9Remove this useless assignment to local variable "user3".(ÅâÇ§
+T
+java:S1854!"9Remove this useless assignment to local variable "user2".(¿Æ’¨ûÿÿÿÿ
+W
+java:S1854"<Remove this useless assignment to local variable "problem3".(èÈ´ìúÿÿÿÿ
+R
+java:S1854"<Remove this useless assignment to local variable "problem2".(Èãğû
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‚ŞÏ¥ıÿÿÿÿ
+C
+java:S1481"-Remove this unused "problem2" local variable.(Èãğû
+H
+java:S1481"-Remove this unused "problem3" local variable.(èÈ´ìúÿÿÿÿ
+E
+java:S1481!"*Remove this unused "user2" local variable.(¿Æ’¨ûÿÿÿÿ
+@
+java:S1481""*Remove this unused "user3" local variable.(ÅâÇ§
+H
+java:S1481%"-Remove this unused "problems" local variable.(È‚°øÿÿÿÿ
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(õš‡àúÿÿÿÿ8ƒ˜¸Ğú1
+]	java:S125-"<This block of commented-out lines of code should be removed.(—Ûóäûÿÿÿÿ8‹…½Ğú1
