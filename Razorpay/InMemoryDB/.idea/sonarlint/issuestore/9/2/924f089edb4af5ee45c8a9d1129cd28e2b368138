@@ -1,0 +1,27 @@
+
+U
+java:S6213&":Rename this variable to not match a restricted identifier.(Œî—ðþÿÿÿÿ
+O
+java:S6213C":Rename this variable to not match a restricted identifier.(óÕ®!
+O
+java:S2864E"4Iterate over the "entrySet" instead of the "keySet".(“§òÿÿÿÿÿ
+P
+java:S6213L":Rename this variable to not match a restricted identifier.(Ø¯÷ç
+_
+java:S1172P"IRemove these unused method parameters "conditionColumn", "expectedValue".(‹æòï
+P
+java:S6213T":Rename this variable to not match a restricted identifier.(°«åµ
+n
+java:S2786¦"RRemove this redundant "static" qualifier; nested enum types are implicitly static.(Â´Âøúÿÿÿÿ
+O
+java:S1854Ò"8Remove this useless assignment to local variable "col2".(Šûöñ
+T
+java:S1854Ñ"8Remove this useless assignment to local variable "col1".(”•­çÿÿÿÿÿ
+M
+java:S1854Ï"6Remove this useless assignment to local variable "ds".(þû¨Ä
+>
+java:S1481Ï"'Remove this unused "ds" local variable.(þû¨Ä
+E
+java:S1481Ñ")Remove this unused "col1" local variable.(”•­çÿÿÿÿÿ
+@
+java:S1481Ò")Remove this unused "col2" local variable.(Šûöñ

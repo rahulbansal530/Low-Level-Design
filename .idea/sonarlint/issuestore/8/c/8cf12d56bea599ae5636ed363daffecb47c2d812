@@ -1,0 +1,9 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÖìÔ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(œõÿÿÿÿÿ
+y
+java:S4165"cRemove this useless assignment; "upiId" already holds the assigned value along all execution paths.(¢´Å„
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ğ”û·
+E
+java:S1656"/Remove or correct this useless self-assignment.(¢´Å„

@@ -1,0 +1,19 @@
+
+d
+java:S1192'"IDefine a constant instead of duplicating this literal "patient2" 4 times.(€šòÖûÿÿÿÿ
+c
+java:S1192"HDefine a constant instead of duplicating this literal "Curious" 4 times.(òğÑ©ÿÿÿÿÿ
+d
+java:S1192""IDefine a constant instead of duplicating this literal "patient1" 6 times.(ÔÄğÖşÿÿÿÿ
+^
+java:S1192"IDefine a constant instead of duplicating this literal "Dreadful" 4 times.(½ıØ
+b
+java:S1192"LDefine a constant instead of duplicating this literal "09:30-10:00" 5 times.(£ôÅ¦
+b
+java:S1192"LDefine a constant instead of duplicating this literal "09:00-09:30" 4 times.(£ôÅ¦
+X	java:S125"<This block of commented-out lines of code should be removed.(ô€ò“8ÁÑÇÚ2
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(ùå¬½
+]	java:S125%"<This block of commented-out lines of code should be removed.(ÇÑÂÇùÿÿÿÿ8š‡«Ú2
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(†¹ÍØüÿÿÿÿ
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(ŠÔ¾³øÿÿÿÿ8©ŸÊÚ2
+Z	java:S1062"9Replace this use of System.out or System.err by a logger.(¡¡Ø£øÿÿÿÿ8©ŸÊÚ2
