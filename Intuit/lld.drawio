@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram name="Page-1" id="Page-1">
+  <mxGraphModel dx="1081" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <root>
+      <mxCell id="0"/>
+      <mxCell id="1" parent="0"/>
+      <!-- Job Entity -->
+      <mxCell id="2" value="Job" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" connectable="0" parent="1">
+        <mxGeometry x="100" y="80" width="120" height="180" as="geometry"/>
+      </mxCell>
+      <mxCell id="3" value="id : Long\n- title : String\n- description : String\n- requirements : String\n- jobType : JobType\n- jobStatus : JobStatus\n- lowestBidPrice : BigDecimal\n- bidCount : Integer\n- expirationDate : LocalDateTime\n- createdAt : LocalDateTime\n- startingPrice : BigDecimal\n- winningBidder : User\n- winningBidAmount : BigDecimal" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" connectable="0" parent="2">
+        <mxGeometry x="0" y="40" width="120" height="140" as="geometry"/>
+      </mxCell>
+      <!-- User Entity -->
+      <mxCell id="4" value="User" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" connectable="0" parent="1">
+        <mxGeometry x="300" y="80" width="120" height="160" as="geometry"/>
+      </mxCell>
+      <mxCell id="5" value="id : Long\n- name : String\n- email : String\n- role : Role\n- createdAt : LocalDateTime" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" connectable="0" parent="4">
+        <mxGeometry x="0" y="40" width="120" height="120" as="geometry"/>
+      </mxCell>
+      <!-- Bid Entity -->
+      <mxCell id="6" value="Bid" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" connectable="0" parent="1">
+        <mxGeometry x="500" y="80" width="120" height="160" as="geometry"/>
+      </mxCell>
+      <mxCell id="7" value="id : Long\n- price : BigDecimal\n- createdAt : LocalDateTime" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" connectable="0" parent="6">
+        <mxGeometry x="0" y="40" width="120" height="120" as="geometry"/>
+      </mxCell>
+      <!-- JobStore -->
+      <mxCell id="8" value="JobStore" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" connectable="0" parent="1">
+        <mxGeometry x="700" y="80" width="120" height="80" as="geometry"/>
+      </mxCell>
+      <mxCell id="9" value="storeJobs()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" connectable="0" parent="8">
+        <mxGeometry x="0" y="20" width="120" height="60" as="geometry"/>
+      </mxCell>
+      <!-- UserStore -->
+      <mxCell id="10" value="UserStore" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" connectable="0" parent="1">
+        <mxGeometry x="700" y="160" width="120" height="80" as="geometry"/>
+      </mxCell>
+      <mxCell id="11" value="storeUsers()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" connectable="0" parent="10">
+        <mxGeometry x="0" y="20" width="120" height="60" as="geometry"/>
+      </mxCell>
+      <!-- BidStore -->
+      <mxCell id="12" value="BidStore" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" connectable="0" parent="1">
+        <mxGeometry x="700" y="240" width="120" height="80" as="geometry"/>
+      </mxCell>
+      <mxCell id="13" value="storeBids()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" connectable="0" parent="12">
+        <mxGeometry x="0" y="20" width="120" height="60" as="geometry"/>
+      </mxCell>
+      <!-- Scheduler -->
+      <mxCell id="14" value="Scheduler" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" connectable="0" parent="1">
+        <mxGeometry x="900" y="80" width="120" height="80" as="geometry"/>
+      </mxCell>
+      <mxCell id="15" value="runEveryMinute()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" connectable="0" parent="14">
+        <mxGeometry x="0" y="20" width="120" height="60" as="geometry"/>
+      </mxCell>
+      <!-- WinningStrategy -->
+      <mxCell id="16" value="WinningStrategy" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" connectable="0" parent="1">
+        <mxGeometry x="900" y="160" width="120" height="80" as="geometry"/>
+      </mxCell>
+      <mxCell id="17" value="chooseWinner()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" connectable="0" parent="16">
+        <mxGeometry x="0" y="20" width="120" height="60" as="geometry"/>
+      </mxCell>
+      <!-- FixedPriceStrategy -->
+      <mxCell id="18" value="FixedPriceStrategy" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E0E0E0;" vertex="1" connectable="0" parent="1">
+        <mxGeometry x="900" y="240" width="120" height="80" as="geometry"/>
+      </mxCell>
+      <mxCell id="19" value="applyFixedPrice()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" connectable="0" parent="18">
+        <mxGeometry x="0" y="20" width="120" height="60" as="geometry"/>
+      </mxCell>
+      <!-- AuctionStrategy -->
+      <mxCell id="20" value="AuctionStrategy" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E0E0E0;" vertex="1" connectable="0" parent="1">
+        <mxGeometry x="900" y="320" width="120" height="80" as="geometry"/>
+      </mxCell>
+      <mxCell id="21" value="applyAuction()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" connectable="0" parent="20">
+        <mxGeometry x="0" y="20" width="120" height="60" as="geometry"/>
+      </mxCell>
+      <!-- Connectors -->
+      <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" connectable="0" parent="1" source="2" target="8">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+      <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" connectable="0" parent="1" source="4" target="10">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+      <mxCell id="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" connectable="0" parent="1" source="6" target="12">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+      <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" connectable="0" parent="1" source="14" target="8">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+      <mxCell id="26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" connectable="0" parent="1" source="14" target="12">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+      <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" connectable="0" parent="1" source="16" target="18">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+      <mxCell id="28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" connectable="0" parent="1" source="16" target="20">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+    </root>
+  </mxGraphModel>
+</diagram>

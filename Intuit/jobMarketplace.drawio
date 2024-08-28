@@ -1,0 +1,181 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
+  <diagram name="Page-1" id="sCt2jMclctQqovqi5Y5z">
+    <mxGraphModel dx="2316" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="riucDNiv2d9Up03Yo3Fy-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="178" as="targetPoint" />
+            <mxPoint x="435" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-1" value="&lt;div&gt;JobService&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="230" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-2" value="- AuctionMediator auctionMediator&lt;div&gt;- JobRepository jobRepository&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-1">
+          <mxGeometry y="30" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-1">
+          <mxGeometry y="70" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-4" value="+ closeJob()&lt;div&gt;+ createJob()&lt;/div&gt;&lt;div&gt;+ getJobs()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-1">
+          <mxGeometry y="78" width="210" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-6" value="&lt;div&gt;BiddingService&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="230" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-7" value="- AuctionMediator auctionMediator&lt;div&gt;- BidRepository bidRepository&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-6">
+          <mxGeometry y="30" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-6">
+          <mxGeometry y="70" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-9" value="+ placeBid()&lt;div&gt;+ deleteBid()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-6">
+          <mxGeometry y="78" width="210" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-10" value="&lt;div&gt;AuctionMediatorImpl&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="514" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-11" value="&lt;div&gt;- JobRepository jobRepository&lt;/div&gt;&lt;div&gt;- BidRepository bidRepository&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-10">
+          <mxGeometry y="30" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-10">
+          <mxGeometry y="70" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-13" value="&lt;div&gt;+ closeJob()&lt;/div&gt;&lt;div&gt;+ placeBid()&lt;/div&gt;&lt;div&gt;+ deleteBid()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-10">
+          <mxGeometry y="78" width="210" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" target="riucDNiv2d9Up03Yo3Fy-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="riucDNiv2d9Up03Yo3Fy-17" target="riucDNiv2d9Up03Yo3Fy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-17" value="&lt;b&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;AuctionMediator&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="120" y="420" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="riucDNiv2d9Up03Yo3Fy-10" target="riucDNiv2d9Up03Yo3Fy-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-19" value="implements" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="484" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.995;entryY=0.096;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="riucDNiv2d9Up03Yo3Fy-27" target="riucDNiv2d9Up03Yo3Fy-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439.9999999999998" y="580.74" as="sourcePoint" />
+            <mxPoint x="310" y="580.74" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-24" value="&lt;div&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;WinningStrategy&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="484" width="140" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-25" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-24">
+          <mxGeometry y="40" width="140" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-24">
+          <mxGeometry y="40" width="140" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-27" value="&lt;div&gt;+ selectWinner()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-24">
+          <mxGeometry y="48" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="riucDNiv2d9Up03Yo3Fy-28" target="riucDNiv2d9Up03Yo3Fy-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-28" value="LowestPrice&lt;div style=&quot;&quot;&gt;WinningStrategy&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="644" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-29" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-28">
+          <mxGeometry y="40" width="140" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-28">
+          <mxGeometry y="40" width="140" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-31" value="&lt;div&gt;+ selectWinner()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-28">
+          <mxGeometry y="48" width="140" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-34" value="implements" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="604" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-35" value="&lt;div&gt;JobScheduler&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="30" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-36" value="&lt;div&gt;- JobService jobService&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-35">
+          <mxGeometry y="30" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-37" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-35">
+          <mxGeometry y="50" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-38" value="+ closeExpiredJobs()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-35">
+          <mxGeometry y="58" width="210" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="riucDNiv2d9Up03Yo3Fy-39" target="riucDNiv2d9Up03Yo3Fy-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-39" value="&lt;div&gt;Job&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="30" width="210" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-40" value="&lt;div&gt;- id : Long&lt;/div&gt;&lt;div&gt;&lt;div&gt;- title : String&lt;/div&gt;&lt;div&gt;&lt;div&gt;- description : String&lt;/div&gt;&lt;div&gt;&lt;div&gt;- requirements : String&lt;/div&gt;&lt;div&gt;&lt;div&gt;- bidCount : Long&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;- jobType : JobType&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;- jobStatus : JobStatus&lt;/div&gt;&lt;div&gt;&lt;div&gt;- winnningBidder : User&lt;/div&gt;&lt;div&gt;&lt;div&gt;- winningBidPrice : BigDecimal&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-39">
+          <mxGeometry y="30" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-39">
+          <mxGeometry y="170" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-43" value="&lt;div&gt;User&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="232" width="210" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-44" value="&lt;div&gt;- id : Long&lt;/div&gt;&lt;div&gt;&lt;div&gt;- firstName : String&lt;/div&gt;&lt;div&gt;&lt;div&gt;- lastName : String&lt;/div&gt;&lt;div&gt;&lt;div&gt;- email : String&lt;/div&gt;&lt;div&gt;&lt;div&gt;- phoneNumber : Long&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-43">
+          <mxGeometry y="30" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-45" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-43">
+          <mxGeometry y="110" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="riucDNiv2d9Up03Yo3Fy-46" target="riucDNiv2d9Up03Yo3Fy-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-46" value="&lt;div&gt;Bid&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="382" width="210" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-47" value="&lt;div&gt;- id : Long&lt;/div&gt;&lt;div&gt;&lt;div&gt;- job : Job&lt;/div&gt;&lt;div&gt;&lt;div&gt;- bidder : User&lt;/div&gt;&lt;div&gt;&lt;div&gt;- bidPrice : BidDecimal&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-46">
+          <mxGeometry y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-48" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-46">
+          <mxGeometry y="100" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="riucDNiv2d9Up03Yo3Fy-46" target="riucDNiv2d9Up03Yo3Fy-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-390" y="550" as="sourcePoint" />
+            <mxPoint x="-310" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-280" y="507" />
+              <mxPoint x="-280" y="172" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.097;entryY=-0.015;entryDx=0;entryDy=0;exitX=1.016;exitY=0.593;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="riucDNiv2d9Up03Yo3Fy-40" target="riucDNiv2d9Up03Yo3Fy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.01;entryY=-0.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="riucDNiv2d9Up03Yo3Fy-47" target="riucDNiv2d9Up03Yo3Fy-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-62" value="&lt;div&gt;UserService&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="30" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-63" value="&lt;div&gt;- UserRepository userRepository&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-62">
+          <mxGeometry y="30" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-64" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-62">
+          <mxGeometry y="60" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-65" value="+ createUser()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="riucDNiv2d9Up03Yo3Fy-62">
+          <mxGeometry y="68" width="210" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="riucDNiv2d9Up03Yo3Fy-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.009;exitY=0.198;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="riucDNiv2d9Up03Yo3Fy-44" target="riucDNiv2d9Up03Yo3Fy-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
